@@ -4,6 +4,12 @@ A python client for [MetricWire's Catalyst system](https://metricwire.com) API. 
 
 This library currently supports the following endpoints:
 
+* [participants](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/Participants/GetAllParticipants)
+* [analysis](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/Analysis/GetSubmissionsFromAnalysisPaginatedPII)
+* [submissions](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/Submissions/GetSubmissionsFromSurvey)
+* [media](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/Submissions/GetMediaSubmissionsFromSurveyPaginated)
+* [sensor data](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/Sensors/GetSensorSubmissionsFromStudyEnterprise)
+
 
 ### Installing
 
