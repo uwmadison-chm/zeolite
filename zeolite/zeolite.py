@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 # Copyright (c) 2024 Board of Regents of the University of Wisconsin System
-# Written by Nate Vack <njvack@wisc.edu>
-# Code contributions from Yogesh Prabhu <yprabhu2@wisc.edu>
+# Written by Nate Vack
+# Code contributions from Yogesh Prabhu
 
 """
 Shared facilities for the MetricWire Consumer API:

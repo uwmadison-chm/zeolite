@@ -79,4 +79,4 @@ Metricwire and Catalyst are trademarks of Metricwire, Inc. Metricwire, Inc does 
 
 ### Credits
 
-Written by Nate Vack <njvack@wisc.edu> at the Center for Healthy Minds at the University of Wisconsin-Madison. Includes code contributions and ideas from Yogesh Prabhu <yprabhu2@wisc.edu>.
+Written by Nate Vack at the Center for Healthy Minds at the University of Wisconsin-Madison. Includes code contributions and ideas from Yogesh Prabhu.
