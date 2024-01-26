@@ -177,28 +177,3 @@ class Metricwire:
                 for row in data_rows:
                     yield row
                 page = page + 1
-
-
-if __name__ == "__main__":
-    """
-    Just some light testing
-    """
-    import pandas as pd
-    import os
-    import sys
-
-    logger.setLevel(logging.DEBUG)
-    mw = Metricwire(
-        "6480ea4aa4c006f315e1d5a5",
-        os.environ["MW_CLIENT_ID"],
-        os.environ["MW_CLIENT_SECRET"],
-    )
-
-    rows = mw.participants_rows("6536d75957b62ae525b9cf76")
-    ppt_df = pd.DataFrame(rows, dtype=str)
-    ppt_df.to_csv(sys.stdout, index=False)
-
-    all_rows = [
-        row for row in mw.sensor_rows("6536d75957b62ae525b9cf76", "passivelocation")
-    ]
-    print(len(all_rows))
