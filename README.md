@@ -1,6 +1,6 @@
 # zeolite
 
-A python client for [MetricWire's Catalyst system](https://metricwire.com) API. API documentation is available on [Swaggerhub](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/)
+A python client for [MetricWire's Catalyst system](https://metricwire.com) API. API documentation is available on [Swaggerhub](https://app.swaggerhub.com/apis-docs/MetricWire/ConsumerAPI/3.0.0#/).
 
 This library currently supports the following endpoints:
 
